@@ -33,6 +33,37 @@ body {
     
 }
 
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
 #temperatura-valor, #temperatura-descripcion, #ubicacion, #viento-velocidad {
     margin-bottom: 10px;
 }
+#buscador {
+    margin-bottom: 20px;
+}
+
+#ciudad-input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#buscar-btn {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#buscar-btn:hover {
+    background-color: #333;
+}
+

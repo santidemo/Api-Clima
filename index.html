@@ -9,13 +9,23 @@
 </head>
 <body>    
     <div id="contenedor">
+        <div id="buscador">
+            <input type="text" id="ciudad-input" placeholder="Buscar ciudad...">
+            <button id="buscar-btn">Buscar</button>
+        </div>
         <div id="caja">
-            <h1 id="temperatura-valor"></h1>
-            <h1 id="temperatura-descripcion"></h1>
-            <h2 id="ubicacion"></h2>
-            <img id="icono-animado" src="" alt="" height="128" width="128">
-            <h3>Veloc del Viento</h3>
-            <h1 id="viento-velocidad"></h1>
+            <div class="info">
+                <h1 id="temperatura-valor"></h1>
+                <h1 id="temperatura-descripcion"></h1>
+            </div>
+            <div class="info">
+                <h2 id="ubicacion"></h2>
+                <img id="icono-animado" src="" alt="" height="128" width="128">
+            </div>
+            <div class="info">
+                <h3>Veloc del Viento</h3>
+                <h1 id="viento-velocidad"></h1>
+            </div>
         </div>
     </div>
     <script src="app.js"></script>
